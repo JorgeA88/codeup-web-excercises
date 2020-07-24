@@ -102,3 +102,4 @@ function applyDiscount(x,y){
 var originalPrice = 25;
 var discountPercent = .1;
 console.log("example discount price", applyDiscount(originalPrice,discountPercent).toFixed(2))
+console.log("git test")
