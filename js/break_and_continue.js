@@ -6,6 +6,12 @@ for(var x = 1 ; x<= 50 ; x++) {
     console.log(x);
 }
 
+ var k=1;
+    while(k <= 16){
+        console.log(Math.pow(2,k))
+        k++;
+}
+
 
 
 
