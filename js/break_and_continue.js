@@ -1,6 +1,6 @@
-var numberToSkip = 27
-for(var x = 1 ; x<= 50 ; x++) {
-    if (x === numberToSkip) {
+var numberToSkip = prompt()
+for(var x = 1 ; x<= 49 ; x += 2) {
+    if (x == numberToSkip) {
         continue;
     }
     console.log(x);
