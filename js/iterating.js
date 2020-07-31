@@ -56,11 +56,32 @@
      *  > second([1, 2, 3, 4, 5]) // returns 2
      *  > last([1, 2, 3, 4, 5]) // return 5
      */
-    var numbers = function(){ ([1,2,3,4])
-        return('This is my first number' + numbers [0]);
-        return('This is my second number' + numbers [1]);
-        return('This is my third number' + numbers [2]);
-    };
-    console.log(numbers)
+    var number = [1,2,3,4,5];
+    function first(array) {
+    console.log('This return the first number:' + array[0])
+    }
+    first(number)
+
+    function second(array) {
+        console.log('This return the second number:' + array[1])
+    }
+    second(number)
+
+    function last(array){
+        console.log('This is my last number: ' + array[4])
+    }
+    last(number)
+
+
+        // return('This is my first number' + numbers [0]);
+        // return('This is my second number' + numbers [1]);
+        // return('This is my third number' + numbers [2]);
+    // number.forEach(function(num,secNum,thirdN,lastNum)
+    // {
+    //     console.log('This is my first number' + num)
+    //     console.log('This is my second number' + secNum)
+    //     console.log('This is my last number' + lastNum)
+    // });
+
 
 })();
