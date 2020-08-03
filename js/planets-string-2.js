@@ -27,4 +27,11 @@ var planetsBreak = "<br>Mercury</br><br>Venus</br><br>Earth</br><br>Mars</br><br
 console.log(planetsBreak)
 
 
+ var planetsul ="<ul>"
+
+ planetsArray.forEach(function (planet) {
+ planetsul +="<li>" + planet + "</li>"
+  planetsul += "</ul>"
+  console.log(planetsul);
+ })
 })();
