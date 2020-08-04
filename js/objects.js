@@ -56,7 +56,7 @@
         }
         total = shopper.amount - discountAmount;
         console.log(shopper.name + " saved $"+ discountAmount.toFixed(2) + " on a $" + shopper.amount.toFixed(2) + " purchase")
-        console.log(shopper.name + " saved $" + discountAmount + " for a total of $"+ discountAmount);
+        console.log(shopper.name + " saved $" + discountAmount + " for a total of $"+ total);
     })
 
 
