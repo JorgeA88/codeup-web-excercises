@@ -25,7 +25,11 @@
      * Example
      * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
      */
-    console.log( "Hello from "+  person.firstName + " " +  person.lastName)
+    person.sayHello = function(){
+        return "Hello from" + this.firstName + "" + this.lastName + "!";
+    }
+
+    console.log(person.sayHello());
 
 
     /** TODO:
@@ -51,8 +55,8 @@
     shoppers.forEach(function(shopper){
         var discountAmount = 0;
         var total = 0;
-        if (shopper.amount > 200){
-            discountAmount = shopper.amount * .12;
+        if (shopper.amount >= 200){
+            discountAmount = (shopper.amount * .12);
         }
         total = shopper.amount - discountAmount;
         console.log(shopper.name + " saved $"+ discountAmount.toFixed(2) + " on a $" + shopper.amount.toFixed(2) + " purchase")
@@ -128,7 +132,18 @@
      *      ---
      *      ...
      */
+        function library(booksArray){
+            for(var x = 0; x < booksArray.length; x++){
+                var book = booksArray[x];
 
+                console.log("Book # " + (x + 1));
+                console.log("Title" + book.title);
+                console.log("Author:" + book.author.firstName + ' ' + book.author.lastName);
+                console.log("---")
+            }
+
+    }
+    library(books);
     /**
      * Bonus:
      * - Create a function named `createBook` that accepts a title and author
@@ -140,4 +155,17 @@
      *   `showBookInfo` function.
      */
 
+     function createBook(title, authorFirstName, authorLastName, booksArray){
+         var newBook = {
+             title: title,
+             author:{
+                 firstName: authorFirstName,
+                 lastName: authorLastName
+             }
+         }
+        booksArray.push(newBook);
+         return booksArray;
+     }
+     createBook("Dune","Frank","Herbert",books);
+    library(books);
 })();
