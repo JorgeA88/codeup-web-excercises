@@ -78,7 +78,7 @@
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
-    var books = {
+    var books = [{
         store : "Amazon",
 
         title1:"Harry Potter and the chamber of secrets",
@@ -106,7 +106,7 @@
             firstName: "JK ",
             lastName: "Rollin"
         },
-};
+}];
     console.log(books)
     /**
      * TODO:
@@ -138,7 +138,7 @@
 
                 console.log("Book # " + (x + 1));
                 console.log("Title" + book.title);
-                console.log("Author:" + book.author.firstName + ' ' + book.author.lastName);
+                console.log("Author:" + book.author.firstName + " " + book.author.lastName);
                 console.log("---")
             }
 
@@ -163,9 +163,9 @@
                  lastName: authorLastName
              }
          }
-        booksArray.push(newBook);
+         booksArray.push(newBook);
          return booksArray;
      }
-     createBook("Dune","Frank","Herbert",books);
+     createBook("Dune","Frank","Herbert", books);
     library(books);
 })();
