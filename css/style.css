@@ -1,0 +1,14 @@
+.fancy-header{
+    color: purple;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    color: red;
+    text-decoration: underline;
+}
+body{
+    background-color: burlywood;
+}
