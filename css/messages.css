@@ -6,19 +6,24 @@ body,html{
     font-family: Arial, Ubuntu, sans-serif;
 }
 div{
-    border-style:solid ;
+    border-radius: 5px;
+    border-style: solid;
     border-width: medium;
-    margin: 1em;
+    margin: .5em;
 }
 .message-info{
-    background-color: #0fb784;
+    background-color: steelblue;
+    color: blue;
 }
 .message-success{
-    background-color: red;
+    background-color: darkseagreen;
+    color:green;
 }
 .message-warning{
     background-color: yellow;
+    color: yellowgreen;
 }
 .message-error{
-    background-color: blue;
+    background-color: palevioletred;
+    color:darkred;
 }
