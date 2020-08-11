@@ -7,9 +7,9 @@ body,html{
 }
 div{
     border-radius: 5px;
-    border-style: solid;
-    border-width: medium;
-    margin: .5em;
+    border: 1px grey solid;
+    margin: .5em auto;
+    padding: 10px;
 }
 .message-info{
     background-color: steelblue;
