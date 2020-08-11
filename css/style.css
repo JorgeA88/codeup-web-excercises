@@ -3,6 +3,7 @@
 }
 h1{
     text-align: center;
+    text-decoration: underline;
 }
 
 h2{
@@ -33,6 +34,7 @@ ol{
 }
 table, th, td{
     border: 1px solid black;
+    padding: 8px;
 }
 a:link {
     color: crimson;
