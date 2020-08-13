@@ -165,9 +165,10 @@ var plusHundred = numberEntered + 100;
 
     if (numberEntered > 0){
         alert ("this Number is Positive.")
-} else{
-        alert ("this number is Negative.")
+} else if( numberEntered < 0){
+        alert("this number is Negative.")
     }
+
     else{
         alert ("This is Not a Number.")
 
