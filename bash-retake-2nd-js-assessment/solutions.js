@@ -5,7 +5,7 @@
         }else{
             return input.toLowerCase();
     }
-    }
+    };
 
 //
 // lowerCase('CODEUP')                 // codeup
