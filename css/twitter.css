@@ -22,6 +22,7 @@ header {
     background-size: cover;
     min-height: 300px;
     padding-top: 275px;
+    z-index: 1000;
 }
 a {
     color: var(--link-color);
@@ -67,6 +68,7 @@ a {
 .img-circle {
     border-radius: 100%;
     border: 4px solid var(--light-bg);
+    z-index: 1000;
 }
 .text-right {
     text-align: right;
@@ -81,24 +83,50 @@ a {
     heigth: 80px;
     left: 20px;
     z-index: auto;
+    top: 15em;
 
 }
 .profile-details{
     width: 25%;
-    margin: .5em;
+    margin: 0 0 .5em ;
+    float: left;
+    padding: 20px;
 
 }
 .timeline{
     width: 50%;
-    margin: .5em;
+    margin: 0 0 .5em;
+    float: left;
 }
 .who-to-follow{
     width: 25%;
-    margin: .5em;
+    margin: 0 0 .5em ;
+    float: right;
+    padding: 20px;
 }
 .container{
     margin: 2em;
 }
 .nav li{
     display: inline-block;
+}
+.media{
+    width: 100%;
+    background-color:whitesmoke;
+    border-bottom: 1px steelblue;
+    padding: .5em;
+    overflow: auto;
+}
+.media-image{
+    width: 50px;
+    float: left;
+    margin-top: 1.33em;
+}
+.media-body{
+    float: left;
+    width: 100%;
+}
+.profile-items{
+    margin: .5em;
+
 }
