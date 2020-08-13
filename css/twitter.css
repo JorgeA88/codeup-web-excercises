@@ -35,7 +35,6 @@ a {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: inline-block;
 
 }
 .nav-link {
@@ -74,4 +73,32 @@ a {
 }
 .text-muted {
     color: var(--main-link-color);
+}
+.profile-image{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    heigth: 80px;
+    left: 20px;
+    z-index: auto;
+
+}
+.profile-details{
+    width: 25%;
+    margin: .5em;
+
+}
+.timeline{
+    width: 50%;
+    margin: .5em;
+}
+.who-to-follow{
+    width: 25%;
+    margin: .5em;
+}
+.container{
+    margin: 2em;
+}
+.nav li{
+    display: inline-block;
 }
