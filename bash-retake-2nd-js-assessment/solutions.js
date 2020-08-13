@@ -3,7 +3,7 @@
         if (typeof input !== "string"){
             return false
         }else{
-            return input.toLowerCase()
+            return input.toLowerCase();
     }
     }
 
