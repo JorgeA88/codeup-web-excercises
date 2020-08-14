@@ -38,6 +38,7 @@ h2, h3 {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 
 
     /* enter needed declarations here */
@@ -160,6 +161,7 @@ section:nth-of-type(6) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 10px;
     /* enter needed declarations here */
 }
 
