@@ -23,7 +23,7 @@ var bamazon = parseInt( amazonR * ahours )
 var cfacebook = parseInt( facebookR * fbhours)
 var total = alert ("Your total is" + ( googleR * ghours) + ( amazonR * ahours) + ( facebookR * fbhours))
 
-classSize = 19;
+classSize == 19;
 classSize == classRoomlimit
 classSize++;
 classSize == classRoomlimit

@@ -27,7 +27,7 @@ console.log(helloMessage);
  * console.
  */
 var myName = ("Jorge")
-console.log("sayHello")
+sayHello(myNamee);
 
 
 // Don't modify the following line, it generates a random number between 1 and 3
@@ -66,8 +66,9 @@ console.log("example", isTwo(random));
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
-function calculateTip(x,y){
-    return x * y;
+function calculateTip(tipPercentage,billAmount){
+    var amountToTip = tipPercentage * billAmount;
+    return amountToTip;
 
 }
 /**
